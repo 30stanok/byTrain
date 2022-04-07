@@ -65,7 +65,7 @@ for (let c = 0; c < colomn; c++) {
         row_child.onclick = eventClick; // по нажатию вызывается функция
         row_child.oncontextmenu = eventClickRight; // по нажатию вызывается функция
         row_child.style = 'cursor: pointer';
-        row_child.style.cssText = 'font-size: 50px';
+
         row_child.style.cssText = `width: ${myCord(colomn) * 6}px; height: ${myCord(colomn) * 6}px;`
         row.appendChild(row_child); // связывание столбца со строкой
     }
